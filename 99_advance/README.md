@@ -49,6 +49,10 @@ Slack APIのレスポンスには、リアクションした**ユーザーのリ
 スプレッドシートの構成：
 - シート1：リアクションをもらった人ランキング（既存）
 - シート2：リアクションをした人ランキング（新規追加）
+
+条件：
+- SLACK_TOKEN、CHANNEL_ID、SPREADSHEET_IDは引き続き
+  PropertiesService.getScriptProperties().getProperty("プロパティ名") で取得する
 ```
 
 ---
